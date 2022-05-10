@@ -1,3 +1,6 @@
+from yaml import Node
+
+
 def insert_at(self, value, position):
     if position < 1:
         return self.insert_first(value)
